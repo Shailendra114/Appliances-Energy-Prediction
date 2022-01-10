@@ -7,5 +7,5 @@ The data set is at 10 min for about 4.5 months. The house temperature and humidi
 # Aim of Project:-
 Experimental data used to create regression models of appliances energy use in a low energy building.
 # Attribute information:-
-date time year-month-day hour:minute:second
-Appliances, energy use in Wh
+date time year-month-day hour:minute:second.
+Appliances, energy use in Wh.
