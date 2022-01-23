@@ -39,3 +39,15 @@ Experimental data used to create regression models of appliances energy use in a
 
 
 Where indicated, hourly data (then interpolated) from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis, rp5.ru. Permission was obtained from Reliable Prognosis for the distribution of the 4.5 months of weather data.
+# Conclusion
+* The temperature/ humidity features showed little to no correlation w.r.t to target variable (<1%), although being highly correlation among each other.
+
+* The time zone of the day plays an important role in deciding power consumption of appliances.
+
+* The best Algorithm to use for this dataset is Extra Trees Regressor
+
+* PCA helped us to reduce our feature set dimension considerably without affcting performance of our models significantly.
+
+* The untuned model was able to explain 75.50% of variance on test set, while the tuned model was able to explain 75.84% of variance on test set which is improvement of 1.5 %
+
+* The least RMSE score on test data set is found to be around 0.5.
