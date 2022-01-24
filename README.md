@@ -48,6 +48,6 @@ Where indicated, hourly data (then interpolated) from the nearest airport weathe
 
 * PCA helped us to reduce our feature set dimension considerably without affcting performance of our models significantly.
 
-* The untuned model was able to explain 75.50% of variance on test set, while the tuned model was able to explain 75.84% of variance on test set which is improvement of 1.5 %
+* The untuned model was able to explain 63% of variance on test set, while the tuned model was able to explain 64% of variance on test set which is improvement of 1.5 %
 
-* The least RMSE score on test data set is found to be around 0.5.
+* The least RMSE score on test data set is found to be around 0.6.
